@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
+
+		<title>Insurance | Insurances type</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+		<!-- Loading third party fonts -->
+		<link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|" rel="stylesheet" type="text/css">
+		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="fonts/lineo-icon/style.css" rel="stylesheet" type="text/css">
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+
+		<!--[if lt IE 9]>
+		<script src="js/ie-support/html5.js"></script>
+		<script src="js/ie-support/respond.js"></script>
+		<![endif]-->
+
+	</head>
+
+
+	<body>
+
+		<div id="site-content">
+			<header class="site-header">
+				<div class="top-header">
+					<div class="container">
+						<a href="index.html" id="branding">
+							<!-- <img src="images/logo.png" alt="Company Name" class="logo"> -->
+							<div class="logo-text">
+								<h1 class="site-title">ABD Insurance</h1>
+								<small class="description" style="color:grey;">let us quote you happy...</small>
+							</div>
+						</a> <!-- #branding -->
+
+						<div class="right-section pull-right">
+							<a href="#" class="phone"><i class="fa fa-phone-square"></i>+1 823 424 9134</a>
+
+							<form action="#" class="search-form">
+								<input type="text" placeholder="Search...">
+							</form>
+						</div>
+					</div> <!-- .container -->
+				</div> <!-- .top-header -->
+
+
+				<div class="bottom-header">
+					<div class="container">
+						<div class="main-navigation">
+							<button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+							<ul class="menu">
+								<li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+								<li class="menu-item"><a href="about.html">About us</a></li>
+								<li class="menu-item"><a href="contact.html">Contact</a></li>
+							</ul> <!-- .menu -->
+						</div> <!-- .main-navigation -->
+
+						<div class="social-links">
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-google-plus"></i></a>
+							<a href="#"><i class="fa fa-pinterest"></i></a>
+						</div>
+
+						<div class="mobile-navigation"></div>
+					</div>
+				</div>
+
+			</header> <!-- .site-header -->
+
+			<main class="main-content">
+
+				<div class="page">
+					<div class="container">
+						<h3 class="entry-title">Please fill the details below</h3>
+						<div class="breadcrumbs">
+							<div class="container">
+								<a id="firstpage" href="#">Personal Details</a>
+								<a id="secondpage" href="#">Additional Driver's Details</a>
+								<span id="thirdpage">Vehicle Details</span>
+							</div>
+						</div>
+					<div id="firstpagediv" class="container">
+						<form class="well form-horizontal">
+										<fieldset>
+											 <div class="form-group">
+													<label class="col-md-3 control-label">Full Name</label>
+													<div class="col-md-5 inputGroupContainer">
+														 <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="fullName" name="fullName" placeholder="Full Name" class="form-control"  value="" type="text"></div>
+													</div>
+											 </div>
+											 <div class="form-group">
+													<label class="col-md-3 control-label">Date Of Birth</label>
+													<div class="col-md-5 inputGroupContainer">
+														 <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span><input id="dob" name="dob" placeholder="MM/DD/YYYY" class="form-control"  value="" type="text"></div>
+													</div>
+											 </div>
+											 <div class="form-group">
+													<label class="col-md-3 control-label">Postal Code/ZIP</label>
+													<div class="col-md-5 inputGroupContainer">
+														 <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="zip" name="postcode" placeholder="Postal Code/ZIP" class="form-control"  value="" type="text"></div>
+													</div>
+											 </div>
+											 <div class="form-group">
+													<label class="col-md-3 control-label"></label>
+													<div class="col-md-5 inputGroupContainer"><button type="button" id="next1btn">Next</button></div>
+													</div>
+											 </div>
+										</fieldset>
+								 </form>
+
+
+					<div id="secondpagediv" class="container">
+						<form class="well form-horizontal">
+										<fieldset>
+											 <div class="form-group">
+													<label class="col-md-3 control-label">Additional Driver's Full Name</label>
+													<div class="col-md-5 inputGroupContainer">
+														 <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="addfullName" name="addfullName" placeholder="Full Name" class="form-control"  value="" type="text"></div>
+													</div>
+											 </div>
+											 <div class="form-group">
+													<label class="col-md-3 control-label">Relationship</label>
+													<div class="col-md-5 inputGroupContainer">
+														 <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+															 <select class="form-control" name="relationship">
+															 	<option value="Spouse">Spouse</option>
+																<option value="Spouse">Parent</option>
+																<option value="Spouse">Sibling</option>
+																<option value="Spouse">Child</option>
+															 </select>
+														 </div>
+													</div>
+											 </div>
+											 <div class="form-group">
+													<label class="col-md-3 control-label"></label>
+													<div class="col-md-3 inputGroupContainer"><button id="prev2btn" type="button">Previous</button>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" id="next2btn">Next</button></div>
+												</div>
+										</fieldset>
+								 </form>
+					</div>
+					<div id="thirdpagediv" class="container" >
+						<form class="well form-horizontal">
+										<fieldset>
+											 <div class="form-group">
+													<label class="col-md-3 control-label">Year</label>
+													<div class="col-md-2 inputGroupContainer">
+														 <div class="input-group"><span class="input-group-addon"><i class="fa fa-calendar"></i></span>
+															 <select class="form-control" name="">
+															 	<option value="2010">2010</option>
+																<option value="2011">2011</option>
+																<option value="2012">2012</option>
+																<option value="2013">2013</option>
+																<option value="2014">2014</option>
+																<option value="2015">2015</option>
+																<option value="2016">2016</option>
+																<option value="2017">2017</option>
+																<option value="2018">2018</option>
+															 </select>
+														 </div>
+													</div>
+													<label class="col-md-1 control-label">Make</label>
+													<div class="col-md-2 inputGroupContainer">
+														 <div class="input-group"><span class="input-group-addon"><i class="icon-car"></i></span>
+															 <select class="form-control" name="">
+															 	<option value="Honda">Honda</option>
+																<option value="Toyota">Toyota</option>
+															 </select>
+														 </div>
+													</div>
+													<label class="col-md-1 control-label">Model</label>
+													<div class="col-md-2 inputGroupContainer">
+														 <div class="input-group"><span class="input-group-addon"><i class="icon-car"></i></span>
+															 <select class="form-control" name="">
+															 	<option value="Honda">Camiri</option>
+																<option value="Toyota">City</option>
+															 </select>
+														 </div>
+													</div>
+											 </div>
+											 <div class="form-group">
+													<label class="col-md-3 control-label">Miles driven</label>
+													<div class="col-md-5 inputGroupContainer">
+														 <div class="input-group"><span class="input-group-addon"><span class="glyphicon glyphicon-dashboard"></span></span><input id="miles" name="miles" placeholder="miles" class="form-control"  value="" type="text"></div>
+													</div>
+											 </div>
+											 <div class="form-group">
+												 <label class="col-md-3 control-label">Vehicle is</label>
+												 <div class="col-md-1"><input type="radio" name="is_vehicle" value="leased" checked="checked"><label>leased</label></div>
+												 <div class="col-md-1"><input type="radio" name="is_vehicle" value="loaned"><label>loaned</label></div>
+												 <div class="col-md-1"><input type="radio" name="is_vehicle" value="owned"><label>owned</label></div>
+											</div>
+											 <div class="form-group">
+													<label class="col-md-3 control-label"></label>
+													<div class="col-md-3 inputGroupContainer"><button type="button" id="prev3btn">Previous</button>&nbsp;&nbsp;&nbsp;&nbsp;<button type="button" id="submitbtn">Submit</button></div>
+												</div>
+											 </div>
+										</fieldset>
+								 </form>
+				</div>
+			</main>
+			</div>
+			</div><!-- .page -->
+			<div class="site-footer">
+				<div class="widget-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-4 col-md-4">
+								<div class="widget">
+									<h3 class="widget-title">Contact</h3>
+									<address> Company Name INC. 523 Burt Street, Omaha
+									</address>
+									<a href="#">Phone: +1 823 424 9134</a>
+									<a href="mailto:info@company.com">info@company.com</a>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-2">
+								<div class="widget">
+									<h3 class="widget-title">Company</h3>
+									<ul class="no-bullet">
+										<li><a href="#">About us</a></li>
+										<li><a href="#">Infoline</a></li>
+										<li><a href="#">Team</a></li>
+										<li><a href="#">Join us</a></li>
+										<li><a href="#">Cooperation</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-2">
+								<div class="widget">
+									<h3 class="widget-title">Products</h3>
+									<ul class="no-bullet">
+										<li><a href="#">Life insurance</a></li>
+										<li><a href="#">Home insurance</a></li>
+										<li><a href="#">Car insurance</a></li>
+										<li><a href="#">Business insurance</a></li>
+										<li><a href="#">Investment insurance</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-2">
+								<div class="widget">
+									<h3 class="widget-title">Our Solutions</h3>
+									<ul class="no-bullet">
+										<li><a href="#">Presentation</a></li>
+										<li><a href="#">Testimonials</a></li>
+										<li><a href="#">Examples</a></li>
+										<li><a href="#">Our experts</a></li>
+										<li><a href="#">Resources</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xs-12 col-sm-4 col-md-2">
+								<div class="widget">
+									<h3 class="widget-title">Press Room</h3>
+									<ul class="no-bullet">
+									<li><a href="#">Advertisement</a></li>
+									<li><a href="#">Interviews</a></li>
+									<li><a href="#">Hot news</a></li>
+									<li><a href="#">Photos</a></li>
+									<li><a href="#">Marketing</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="bottom-footer">
+					<div class="container">
+						<nav class="footer-navigation">
+							<a href="#">Home</a>
+							<a href="#">About us</a>
+							<a href="#">Contact</a>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+		<script src="js/plugins.js"></script>
+		<script src="js/app.js"></script>
+		<script src="main.js"></script>
+	</body>
+
+</html>
