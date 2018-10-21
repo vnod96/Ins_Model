@@ -1,7 +1,9 @@
 var color="#de2420";
 displayBlock(1);
-
+var fullName;
 $('#next1btn').click(function(){
+  fullName = $('#fullName').val();
+  $('#fullnamediv').html(fullName);
   displayBlock(2);
 });
 $('#next2btn').click(function(){
